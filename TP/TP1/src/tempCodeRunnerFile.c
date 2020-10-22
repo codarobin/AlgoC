@@ -1,13 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
- //variables
-double rayon = 4 ;
+// sizeof: la taille de différents types de données
 
-int main()
-{
-    float air = M_PI*(rayon*rayon);
-    printf("l'air du cercle est %f",air);
- 
-    return 0;
+#include <stdio.h>
+
+int main() {
+
+  printf("char %ld\n", sizeof(char));
+  printf("short %ld\n", sizeof(short));
+  printf("int %ld\n", sizeof(int));
+  printf("long int %ld\n", sizeof(long int));
+  printf("long long int %ld\n", sizeof(long long int));
+  printf("float %ld\n", sizeof(float));
+
+  double d;
+  printf("double %ld\n", sizeof(d));
+  return (0);
 }
