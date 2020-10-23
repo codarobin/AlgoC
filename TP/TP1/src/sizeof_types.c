@@ -10,8 +10,6 @@ int main() {
   printf("long int %ld\n", sizeof(long int));
   printf("long long int %ld\n", sizeof(long long int));
   printf("float %ld\n", sizeof(float));
-
-  double d;
-  printf("double %ld\n", sizeof(d));
+  printf("double %ld\n", sizeof(double));
   return (0);
 }
