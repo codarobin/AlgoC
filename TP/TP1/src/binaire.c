@@ -1,24 +1,17 @@
 #include <stdio.h>  
-#include <stdlib.h> 
 int main(){
   
-  int tab[10], nbr, i;  
-  
-  printf("Entrez le nombre à convertir: ");  
-  scanf("%d",&nbr);  
-  
+  int i;
+  int tab[i];
+  int nbr = 1024; 
   for(i=0; nbr > 0; i++)  
   {  
     tab[i] = nbr%2;  
     nbr = nbr/2;  
   } 
-  
-  printf("\nLe nombre binaire est = ");
-  
-  for(i=i-1; i >= 0; i--)  
+  for(i; i != 0; i--)  
   {  
-    printf("%d",tab[i]);  
+    printf("%d",tab[i-1]);  
   }  
-  
   return 0;
 }
