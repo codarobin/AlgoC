@@ -12,6 +12,6 @@ int main(){
   for(i; i != 0; i--)  
   {  
     printf("%d",tab[i-1]);  
-  }  
+  }
   return 0;
 }
