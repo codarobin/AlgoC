@@ -1,3 +1,9 @@
+/*
+ * Robin CODA - 2020
+ * <robin.coda@cpe.fr> - https://github.com/codarobin/AlgoC
+ * opérateurs2.c
+ */
+
 #include <stdio.h>
 
 int main(){
