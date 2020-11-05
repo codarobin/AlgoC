@@ -1,8 +1,8 @@
 #include <stdio.h>  
 int main(){
   
-  int d = 524304;
-  if (((d >> 4 & 1)) && ((d >> 19 & 1)))
+  int d = 268439552;
+  if (((d >> 28 & 1)) && ((d >> 12 & 1)))
   {
     printf("ok") ;
   }
