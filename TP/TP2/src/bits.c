@@ -1,7 +1,7 @@
 #include <stdio.h>  
 int main(){
   
-  int d = 268443648;
+  int d = 524304;
   if (((d >> 4 & 1)) && ((d >> 19 & 1)))
   {
     printf("ok") ;
