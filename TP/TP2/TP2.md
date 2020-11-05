@@ -32,10 +32,10 @@ La suite de Fibonacci est une suite d'entiers définie comme suit :
 
 -   U0=1
 -   U1=1
--   Un= Un-1 + Un-2
+-   Un= Un-1 + Un-2 
 
 Écrivez le code *fibonacci.c* qui affiche les n termes de la suite de
-Fibonacci U0, U1, U2,...Un.
+Fibonacci U0, U1, U2,...Unnbr.
 
 
 #### Exercice 2.4 [★★]
