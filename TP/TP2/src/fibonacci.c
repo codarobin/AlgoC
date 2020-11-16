@@ -1,5 +1,9 @@
+/*
+ * Robin CODA - 2020
+ * <robin.coda@cpe.fr> - https://github.com/codarobin/AlgoC
+ * fibonacci.c
+*/
 #include<stdio.h>
-#include<stdlib.h>
  
 int main()
 {

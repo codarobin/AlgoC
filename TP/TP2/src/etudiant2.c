@@ -1,7 +1,7 @@
 /*
- * Baptiste PELLARIN - 2020
- * <baptiste.pellarin@cpe.fr> - https://gitlab.com/bat553/cpe_algoc
- * etudiant2.c
+ * Robin CODA - 2020
+ * <robin.coda@cpe.fr> - https://github.com/codarobin/AlgoC
+ * étudiant2.c
 */
 #include <stdio.h>
 #include <string.h>

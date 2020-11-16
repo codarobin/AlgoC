@@ -1,15 +1,16 @@
 # Bibliothèques
-* 
-*
+*<stdio.h>
+
+*<string.h>
 
 # Références
-*
-*
+* Cours de John Samuel
+* Aide de Mohamed-Lamine Messai
 
 # Difficulté
-*
+* Difficulté avec les pointeurs et les bits, car ce sont des choses quie je ne connaissais pas.
 
 # Commentaires
-* 
-* 
+* TP interréssant, qui m'a permis de bien prendre en main la base du language C.
+
 
