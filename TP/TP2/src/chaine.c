@@ -1,14 +1,37 @@
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-  char chaine1[100] = "salut ", chaine2[100] = "ca va ?", chaine3[100];
- 
-  strcat(chaine1, chaine2); //concatenation de deux chaines 
-  int longueur = strlen(chaine1);
- 
-  printf("Aprés la concaténation = %s\n", chaine1);
-  printf("La longueur de la chaine %s est de %d caractères",chaine1,longueur);
- 
-  return 0;
+/*
+ * Baptiste PELLARIN - 2020
+ * <baptiste.pellarin@cpe.fr> - https://gitlab.com/bat553/cpe_algoc
+ * chaine.c
+*/
+
+#include <stdio.h>
+
+int main(){
+    // Copie une chaine de caractères dans une autre chaine de caractère
+    char str_original[6] = "testch";
+    char str_copy[6];
+    printf("%ld\n",sizeof(str_original));
+    for(int i = 0; i < sizeof(str_original); i++){
+        str_copy[i] = str_original[i];
+    }
+    printf("%s\n", str_copy);
+
+    // Concatène deux chaines de caractères
+    char str_concat[sizeof(str_original)+sizeof(str_copy)];
+
+    for(int i = 0; i < sizeof(str_original)+sizeof(str_copy); i++){
+        if (i < 6){
+            str_concat[i] = str_original[i];
+        } else {
+            str_concat[i] = str_copy[i];
+        }
+    }
+
+    printf("%s\n", str_concat);
+
+    // Calcule le nombre de caractères dans une autre chaine de caractère
+    printf("%ld\n", sizeof(str_concat));
+
+
+    return 0;
 }
