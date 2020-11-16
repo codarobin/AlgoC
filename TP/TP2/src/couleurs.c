@@ -7,14 +7,27 @@
 #include <string.h>
 int main(){
     //Création de la structure
-    typedef struct couleur {
-        char r[5];
-        char g[5];
-        char b[5];
-        char a[5];
+    typedef struct {
+        char r;
+        char g;
+        char b;
+        char a;
 
-    };
-    typedef struct couleurs couleurs_tab[10];
-    couleurs_tab[0]
+    }couleur;
+    couleur couleurs_tab[10];
+    couleurs_tab[0].r = 10;
+    couleurs_tab[0].g = 10;
+    couleurs_tab[0].b = 10;
+    couleurs_tab[0].a = 10;
+
+    couleurs_tab[0].r = 10;
+    couleurs_tab[0].g = 10;
+    couleurs_tab[0].b = 10;
+    couleurs_tab[0].a = 10;
+    for (size_t i = 0; i < 10; i++)
+    {
+        printf("%hhx %hhx %hhx %hhx\n",couleurs_tab[i].r,couleurs_tab[i].g,couleurs_tab[i].b,couleurs_tab[i].a);
+    }
+    
     return 0;
 }
