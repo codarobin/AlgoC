@@ -1,15 +1,19 @@
 # Bibliothèques
-* 
-*
+* <stdio.h>
+* <stdlib.h> 
+
 
 # Références
-*
-*
+* JSCourses
+* Anciens TP
+* Aide de JS et Mohammed
+* https://forums.commentcamarche.net/forum/affich-1063120-debutant-en-c-trier-tableau
+* https://fr.wikipedia.org/wiki/Recherche_dichotomique
 
 # Difficulté
-*
+* Moyenne
 
 # Commentaires
-* 
-* 
+* Un peu de Difficulté pour les exercices couleur_compteur et Recherche_dichotomique
+* Les autres exercices se sont plutot bien passé
 
